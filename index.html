@@ -255,11 +255,50 @@
               <p>If you are interested in taking admission in this <br> course then register now.</p>
             </div>
             <div>
-              <button type="button" class="btn btn-light">Resgister Now</button>
+              <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register</button>
             </div>
            </div>
           </section>
-
+          <!-- modal start -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Resgister Now</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Email:</label>
+                      <input type="text" placeholder="exmple@gmail.com" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Phone nambar:</label>
+                      <input type="text" placeholder="01*********" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Frist Name:</label>
+                      <input type="text" placeholder="Frist Name" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Last Name:</label>
+                      <input type="text" placeholder="Last Name" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Password:</label>
+                      <input type="text" placeholder="Password" class="form-control" id="recipient-name">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Login</button>
+                  <button type="button" class="btn btn-primary">Register</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
         <!----------------------------
            Register secetion end
           -------------------------->
